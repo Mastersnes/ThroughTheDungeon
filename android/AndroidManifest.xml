@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bebel.game" >
-
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:isGame="true"
-        android:appCategory="game"
-        android:label="@string/app_name"
-        android:theme="@style/GdxTheme" >
-        <activity
-            android:name="com.bebel.game.AndroidLauncher"
-            android:label="@string/app_name" 
-            android:screenOrientation="landscape"
-            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
+					package="com.bebel.android"
+					android:screenOrientation="landscape"
+					android:versionCode="1"
+					android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+		<activity android:name="TTDActivity"
+							android:label="@string/app_name"
+							android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+							android:configChanges="keyboard|keyboardHidden|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
 </manifest>

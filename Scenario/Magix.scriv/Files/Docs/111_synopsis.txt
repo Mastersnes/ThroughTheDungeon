@@ -1,3 +1,0 @@
-Gain : E2
-Utilisation : E2
-Perte : E2

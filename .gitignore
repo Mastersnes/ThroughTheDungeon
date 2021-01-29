@@ -1,5 +1,7 @@
-android/assets
-ios/assets
-.idea
-.idea/*
+target/
+.env
+.idea/
 *.iml
+.classpath
+.project
+.settings/
