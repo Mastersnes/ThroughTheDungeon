@@ -6,6 +6,8 @@ import com.bebel.api.resources.ResourceManager;
 import com.bebel.core.scenes.Scenes;
 
 public class TTD extends BebelGame {
+    public TTD() {super(0.05f);}
+
     @Override
     public void create() {
         super.create();

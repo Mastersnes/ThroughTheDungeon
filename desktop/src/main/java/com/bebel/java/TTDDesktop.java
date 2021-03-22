@@ -8,10 +8,13 @@ public class TTDDesktop {
 	public static void main (String[] args) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.title = "Test";
-		config.width = 1024;
-		config.height = 768;
-		config.backgroundFPS = 60;
-		config.foregroundFPS = 60;
+		config.width = 1920;
+		config.height = 1080;
+		config.backgroundFPS = 0;
+		config.foregroundFPS = 0;
+		config.fullscreen = true;
+		config.resizable = false;
+		config.vSyncEnabled = true;
 		new LwjglApplication(new TTD(), config);
 	}
 }

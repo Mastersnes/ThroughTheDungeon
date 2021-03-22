@@ -30,6 +30,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.badlogicgames.gdx</groupId>
+			<artifactId>gdx-box2d-gwt</artifactId>
+			<classifier>sources</classifier>
+		</dependency>
+
+		<dependency>
 			<groupId>com.bebel</groupId>
 			<artifactId>ttd-core</artifactId>
 			<version>${project.version}</version>
